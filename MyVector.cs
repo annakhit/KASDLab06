@@ -15,7 +15,7 @@ internal class MyVector<T>
     public MyVector(int initialCapacity)
     {
         elementData = new T[initialCapacity];
-        elementCount = initialCapacity;
+        elementCount = 0;
         capacityIncrement = 0;
     }
     public MyVector()
